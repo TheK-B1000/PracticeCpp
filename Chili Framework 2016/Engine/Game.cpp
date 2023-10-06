@@ -1,7 +1,7 @@
 /****************************************************************************************** 
  *	Chili DirectX Framework Version 16.07.20											  *	
  *	Game.cpp																			  *
- *	Copyright 2016 PlanetChili.net <http://www.planetchili.net>							  *
+ *	Copyright 2023 PlanetChili.net <http://www.planetchili.net>							  *
  *																						  *
  *	This file is part of The Chili DirectX Framework.									  *
  *																						  *
@@ -42,4 +42,5 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
+	gfx.PutPixel( 100, 100, 255, 255, 255 );
 }
